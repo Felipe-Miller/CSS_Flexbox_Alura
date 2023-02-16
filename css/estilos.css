@@ -9,40 +9,6 @@
     box-sizing: border-box;
 }
 
-.cabecalho__container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: fixed;
-    top: 0;
-   
-}
-
-.cabecalho__pesquisar__item {
-    display: none;
-}
-
-.rodape__container {
-    display: flex;    
-    /* flex-direction: column;
-    flex-wrap: wrap; */
-    flex-flow: column wrap;
-
-}
-
-@media (min-width: 834px) {
-    .cabecalho__pesquisar__item {
-        display: bl;
-    }
-
-    .rodape__container {
-        justify-content: space-between;
-    }
-}
-
-
-
-
 body {
     font-family: Roboto, Arial, Helvetica, sans-serif;
     background-color: var(--azul-claro);
